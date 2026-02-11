@@ -138,3 +138,39 @@ strong {
         font-size: 1.2em;
     }
 }
+
+/* Image Section */
+.image-section {
+    margin: 2em 0;
+    text-align: center;
+}
+
+.banner-image {
+    width: 100%;
+    max-width: 600px;  /* Smaller size - adjust this value as needed */
+    height: auto;
+    display: block;
+    /* margin: 0 auto; */
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+    -ms-interpolation-mode: bicubic;
+}
+
+/* Optional: Add some styling effects */
+.banner-image {
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive - even smaller on mobile */
+@media (max-width: 768px) {
+    .banner-image {
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 480px) {
+    .banner-image {
+        max-width: 100%;
+    }
+}
