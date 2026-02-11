@@ -93,7 +93,7 @@ a:hover {
 
 /* Alternative Version Link */
 .alt-version {
-    font-style: italic;
+    /* font-style: italic; */
     margin-top: 1.5em;
 }
 
