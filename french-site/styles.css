@@ -139,38 +139,64 @@ strong {
     }
 }
 
-/* Image Section */
 .image-section {
     margin: 2em 0;
+    margin-left: -20px;
+    margin-right: -20px;
     text-align: center;
+    overflow: hidden;
+    max-height: 220px;   /* Reduced height */
 }
 
 .banner-image {
     width: 100%;
-    max-width: 600px;  /* Smaller size - adjust this value as needed */
+    max-width: 100%;
     height: auto;
     display: block;
-    /* margin: 0 auto; */
-    image-rendering: -webkit-optimize-contrast;
-    image-rendering: crisp-edges;
-    -ms-interpolation-mode: bicubic;
+    margin: 0;
+    margin-top: -130px;   /* Crop from top - adjust this value */
+    object-fit: cover;
+    object-position: top center;
 }
 
-/* Optional: Add some styling effects */
+/* Remove shadow and border radius for full-width effect */
 .banner-image {
-    border-radius: 4px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 0;
+    box-shadow: none;
 }
 
-/* Responsive - even smaller on mobile */
+/* Responsive adjustments */
 @media (max-width: 768px) {
+    .image-section {
+        margin-left: -15px;
+        margin-right: -15px;
+        max-height: 240px;
+    }
+    
     .banner-image {
-        max-width: 400px;
+        margin-top: -60px;
     }
 }
 
 @media (max-width: 480px) {
-    .banner-image {
-        max-width: 100%;
+    .image-section {
+        margin-left: -10px;
+        margin-right: -10px;
+        max-height: 100px;
     }
+    
+    .banner-image {
+        margin-top: -80px;
+    }
+}
+
+
+p {
+    line-height: 1.3;
+    margin-bottom: 0.5em;
+}
+
+h3:not(:first-of-type) ~ p {
+    line-height: 1.6;
+    margin-bottom: 1em;
 }
