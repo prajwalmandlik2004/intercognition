@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use Intercognition in your work, please cite it as below."
+title: "Intercognition — cross-perspective cognition"
+version: "2026.0"
+doi: ""
+authors:
+  - family-names: GILLES
+    given-names: Barthélemy
+    orcid: ""
+date-released: "2026-01-16"
+url: "https://intercognition.org"
+license: "CC-BY-4.0"
