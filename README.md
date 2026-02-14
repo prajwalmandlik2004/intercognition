@@ -19,6 +19,14 @@ Intercognition gathers theoretical, methodological, and empirical approaches aim
 - dynamics of translation and epistemic alignment;
 - methods for evaluation and intersubjective annotation.
 
+## Origin and Formal Status
+
+The French term *intercognition* (and its derivatives *intercognitif* and *intercognitivité*) is introduced as a neologism and formally defined for the first time in January 2026 through a Soleau prior art deposit.
+
+In English, while the word "intercognition" has appeared sporadically in unrelated contexts, this repository establishes its first formal and operational definition within the present analytical framework, dedicated to the study of emergent phenomena arising from structured interaction between heterogeneous cognitive systems.
+
+The reference document available on the official sites constitutes the authoritative formulation of this framework.
+
 ## Proof of priority
 
 Soleau deposit: SOLEAU / ref. : evEp-XMzf-Wh4Z-XQ6e, dated 2026-01-16
